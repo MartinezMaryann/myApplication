@@ -11,7 +11,7 @@ export class MessagePage implements OnInit {
 
   constructor() { }
 
-  sendMsg(){
+  sendMessage(){
     let messages = {
     contents: this.contents
     
